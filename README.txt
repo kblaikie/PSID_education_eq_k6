@@ -1,5 +1,5 @@
 # PSID_education_eq_k6 Overview
-#This repository hosts resources for an ongoing project asking the question: "To what extent does employment quality (EQ) mediate the effect of educational attainment on mental health?".
+#This repository hosts resources for a now completed project asking the question: "To what extent does employment quality (EQ) mediate the effect of educational attainment on mental health?".
 
 #In order to answer this, the parametric mediational g-formula approach outlined by Lin et al. in their 2017 paper "Parametric Mediational g-Formula Approach to Mediation Analysis with Time-varying Exposures, Mediators, and Confounders" is used. This approach can decompose the total effect of an exposure on on outcome into randomised interventional analogues of #natural direct and indirect effects. 
 
@@ -9,8 +9,9 @@
 
 #This repo therefore contains:
 
-#1) An R script assigning each individual with sufficient information a PCA-based EQ score.   
-#2) An R script creating a final analysis dataset in wide- and long-format for the maximum study population.
-#3) An R script containing the mediational g-formula for marginal comparisons.
-#4) An R script containing a simplified version of the mediational g-formula for general use.
-#5) A .jpeg file for the assumed causal DAG used in this analysis.  
+#1) A .jpeg file for the assumed causal DAG used in this analysis (causal_DAG_280822.png).   
+#2) An R script creating a final analysis dataset in wide- and long-format for the maximum study population (dataset_built_100121.R).
+#3) An R script creating the mediational g-formula functions used in all final analyses (making_medgformula_functions_101121_parallel.R).
+#4) An R script containing all mediational g-formula analyses contributing towards this project (medgformula_script_101121_parallel.R).
+#5) An R script containing a simplified version of the mediational g-formula for general use (medgformula_script_template_070722.R).
+#6) A .csv file containing fake respondent data to be used with the simplified mediational g-formula template script (template_data.csv).
